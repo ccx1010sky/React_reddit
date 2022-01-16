@@ -5,7 +5,7 @@ function App() {
   return (
 
 <div>
-   <h1>hello Reddit</h1>
+   <h1>Hello Reddit</h1>
   <RdContent />
 </div>
     

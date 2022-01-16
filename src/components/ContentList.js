@@ -1,16 +1,17 @@
-import React from 'react'
-import ListItem from './ListItem'
+import React from "react";
+import ListItem from "./ListItem.js";
+
+const ContentList = ({ posts }) => {
+  const postItems = posts.map((post, index) => {
+    return <ListItem post={post} key={index} />;
+  });
 
 
-const ContentList = () => {
+  return (
+    <div>
+      {postItems}
+    </div>
+  );
+};
 
-
-
-    return (
-        <div>
-            
-        </div>
-    )
-}
-
-export default ContentList
+export default ContentList;
